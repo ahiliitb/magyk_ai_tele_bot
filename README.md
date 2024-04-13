@@ -1,4 +1,9 @@
-# Magyk AI ChatBot
+# Magyk AI TeleBot (@magyk.ai)
+
+## Set up to run the TeleBot
+- Code is present inside Google Colab Notebook, so just open `telegram_bot_code.ipynb` file.
+- Click on `open in colab` to open the colab notebook and then run both cells.
+- Go to telegram and open magyk.ai.
 
 ## /start Command
 
