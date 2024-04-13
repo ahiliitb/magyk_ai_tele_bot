@@ -60,7 +60,7 @@ The `!weather` command is used to provide weather updates for a specific city. I
 - Interaction with the ChatGPT API is used for predicting city names and providing fun facts.
 
 ### Usage
-1. Send a message in the format "!weather city name" to get the weather update for that city.
+1. Send a message in the format `!weather city name` to get the weather update for that city.
 2. If the city name is incorrect, the bot will attempt to predict the correct city name.
 3. Confirm the predicted city name if it is correct, and the bot will provide the weather update for that city.
 4. Enjoy the fun fact about the city and provide a summary if prompted.
