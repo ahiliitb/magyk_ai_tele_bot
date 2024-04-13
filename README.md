@@ -1,6 +1,6 @@
 # Magyk AI ChatBot
 
-## **/start Command**
+## /start Command
 
 ### Overview
 The `/start` command is used to initialize the chat with the Weather Bot. It greets the user with a random fun fact about the weather and prompts the user to provide their name.
@@ -14,7 +14,7 @@ The `/start` command is used to initialize the chat with the Weather Bot. It gre
 The user's name is saved in a global variable for further use.
 
 ### Implementation Details
-- The command is implemented in Python using the telebot library.
+- Stored prompts in global variables and each time command is called, the prompt is passed into GPT 3.5 API
 - Interaction with the ChatGPT API is used for generating responses, greetings, and random fun facts.
 
 ### Usage
@@ -31,7 +31,7 @@ The `/hi` or `/hello` command, as well as normal greetings like "hi" or "hello,"
 After greeting the user, the bot will ask a question about the user's mood. If the user's mood is nice, the bot will reply in a funny way, greeting the user with a joke. If the user's mood is not nice, the bot will console the user with a joke about the weather.
 
 ### Implementation Details
-- Implemented in Python using the telebot library.
+- Stored prompts in global variables and each time command is called, the prompt is passed into GPT 3.5 API
 - Interaction with the ChatGPT API is used for generating responses, greetings, and jokes.
 
 ### Usage
@@ -46,7 +46,7 @@ The `!weather` command is used to provide weather updates for a specific city. I
 
 ### Implementation Details
 - Uses the OpenWeatherMap API for weather updates.
-- Implemented in Python using the telebot library.
+- Stored prompts in global variables and each time command is called, the prompt is passed into GPT 3.5 API
 - Interaction with the ChatGPT API is used for predicting city names and providing fun facts.
 
 ### Usage
