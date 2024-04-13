@@ -10,6 +10,10 @@
 https://chat.openai.com/share/c86ad2de-482c-4838-b8a2-bab66dfebdce
 ```
 
+## Introduction
+The Weather Telebot is a chatbot designed to provide users with weather updates and fun facts about cities around the world. It utilizes the `OpenWeatherMap` API for weather data and the `ChatGPT` API for generating responses, greetings, and fun facts. The bot offers various commands such as `/start` for initializing the chat, `/hi` or `/hello` for greetings, `!weather city name` for weather updates, `/summary` for a summary of the weather report, `/funfact` for a fun fact about a city, `/help` for command information, and `!explore random question` for humorous responses to random questions. The Weather Telebot aims to provide users with an enjoyable and informative experience while interacting with weather-related content.
+
+
 ## /start Command
 
 ### Overview
