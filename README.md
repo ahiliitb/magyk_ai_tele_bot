@@ -1,6 +1,6 @@
 # Magyk AI ChatBot
 
-## /start Command
+## **/start Command**
 
 ### Overview
 The `/start` command is used to initialize the chat with the Weather Bot. It greets the user with a random fun fact about the weather and prompts the user to provide their name.
